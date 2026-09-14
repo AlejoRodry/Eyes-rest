@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: './', // Permite que los assets se carguen usando rutas relativas en GitHub Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
