@@ -1,0 +1,17 @@
+{
+  "name": "eye-rest-20-20-20",
+  "version": "1.0.0",
+  "description": "App para descansar la vista con la regla 20-20-20",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . eye-rest --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.6"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
